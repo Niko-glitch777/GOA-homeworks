@@ -2,6 +2,8 @@ favouritesubject=("English")
 print(favouritesubject)
 favouritefilm=("dumb and dumber")
 print(favouritefilm)
+
+
 mom=("გურანდა")
 dad=("გიორგი")
 uncledadsside=("გუგა")
