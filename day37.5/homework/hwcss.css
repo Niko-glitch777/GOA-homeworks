@@ -1,0 +1,66 @@
+#Hello{
+    text-decoration: underline dotted;
+    text-decoration-color: #25CC33;
+    margin-left: 70%;
+}
+
+#World{
+    text-decoration: line-through;
+    margin-left: 35%;
+}
+
+#red{
+    color: rgb(255, 0, 0);
+}
+
+#Goal{
+    text-decoration: underline;
+    margin-left: 35%;
+}
+
+#Oriented{
+    text-decoration: line-through dotted;
+    text-decoration-color: #25CC33;
+    margin-left: 55%;
+}
+
+#Academy{
+    text-decoration: line-through;
+}
+
+#is{
+    text-decoration: overline;
+}
+
+#the{
+    text-decoration: overline ;
+    color: #25CC33;
+    margin-left:75%
+}
+
+#BEST{
+    text-decoration: overline;
+    color: rgb(180, 180, 180);
+    margin-left: 30%;
+}
+
+#one{
+    text-decoration: underline dotted;
+    text-decoration-color: #25CC33;
+    margin-left: 75%;
+}
+
+#p1{
+    text-decoration: underline wavy;
+    text-decoration-color:#008800 ;
+}
+
+#p2{
+    text-decoration: overline underline dashed;
+    text-decoration-color:#CC0000;
+}
+
+#p3{
+    text-decoration: line-through;
+    text-decoration-color: #0000EE;
+}
