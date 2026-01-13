@@ -1,0 +1,50 @@
+
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ul{
+    list-style-position: outside;
+}
+
+#ol2{
+    list-style-image: url(./download.png);
+}
+
+#ul2{
+    list-style: georgian,inside,url(./download.jpeg);
+}
+
+
+
+
+
+
+#email[type = "email"]{
+    border: 2px solid rgb(240, 128, 128) ;
+}
+
+#password[type = "password"]{
+    border: 2px solid rgb(240, 128, 128) ;
+}
+
+#submit[type = "submit"]{
+    border: 2px solid rgb(240, 128, 128) ;
+}
+
+#o1[type = "submit"]{
+    border-radius: 45%;
+}
+
+#o2[type = "submit"]{
+    border-radius: 35%,67%;
+}
+
+#o3[type = "submit"]{
+    border-radius: 20%,50%;
+}
+
+#o4[type = "submit"]{
+    border-radius: 69%;
+}
