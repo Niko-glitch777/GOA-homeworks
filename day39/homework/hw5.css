@@ -1,0 +1,30 @@
+
+
+
+body{
+    background-color: #302D32;
+}
+
+input{
+    background-color: #302D32;
+    border: 2px solid #FD6D6D;
+    width: 600px;
+    height: 45px;
+}
+
+input::placeholder{
+    padding-left: 2%;
+    
+}
+
+#comment{
+    height: 140px;
+}
+
+button{
+    background-color: #FD6D6D;
+    border: 0px;
+    color: #FFFFFF;
+    width: 605px;
+    height: 50px;
+}

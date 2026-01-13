@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Heebo:wght@100..900&display=swap');
+
+
+body{
+    background-color: #CC7801;
+}
+
+
+h2{
+    color: #555555;
+    font-family: "Cabin",sans-serif;
+    padding-top: 25px;
+}
+
+div{
+    width: 450px;
+    height: 400px;
+    background-color: #ededed;
+}
+
+p{
+    color: #666666;
+}
+
+input{
+    height: 40px;
+    width: 330px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    color: #FFFFFF;
+    border: 0px;
+    background-color: #2a9e2a;
+}

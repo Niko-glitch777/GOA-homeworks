@@ -1,0 +1,68 @@
+
+button{
+    background-color: #95c67f;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #20cf26;
+}
+
+button:active{
+    transition: 0.2s;
+    background-color: #399028;
+}
+
+p::first-letter{
+    color: #FF3333;
+}
+
+form{
+    width: 450px;
+    border: 1px solid ;
+}
+
+tr{
+    border: 1px solid lightgray;
+}
+
+th{
+    border: 2px solid lightgray;
+}
+
+table{
+    border: 1px solid;
+}
+
+#th1{
+    padding-left: 5px;
+    padding-right: 45px;
+    color: white;
+}
+
+#th2{
+    padding-left: 5px;
+    padding-right: 45px;
+    color: white;
+}
+
+#th3{
+    padding-left: 5px;
+    padding-right: 90px;
+    color: white;
+}
+
+#th4{
+    padding-left: 5px;
+    padding-right: 60px;
+    color: white;
+}
+
+table:nth-child(odd) {
+    background-color: #CCCCCC;
+}
+
+tr:nth-child(1){
+    
+    background-color: #33AAFF;
+}
+
