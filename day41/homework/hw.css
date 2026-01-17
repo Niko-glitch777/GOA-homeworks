@@ -1,0 +1,33 @@
+img {
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 45%;
+}
+
+body{
+    color: #18124a;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+}
+
+button{
+    border-radius: 50%;
+    width: 325px;
+    height: 55px;
+}
+
+ul{
+    list-style: inside square ;
+}
+
+ol{
+    list-style: outside upper-roman;
+}
