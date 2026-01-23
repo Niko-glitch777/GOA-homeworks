@@ -1,0 +1,19 @@
+ul{
+    background-color: rgba(163, 188, 153, 0.699);
+    list-style: inside lower-greek ;
+    color: blue;
+}
+
+
+input{ 
+    background-color: rgb(121, 244, 121);
+    color: darkslategrey;
+    width: 120px;
+    height: 25px;
+}
+
+input:active{
+    background-color: rgb(119, 255, 119);
+    border: 3px darkgreen;
+    
+}
