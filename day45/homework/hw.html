@@ -1,0 +1,112 @@
+<!-- 1) შექმენით ფილმების ვებსაიტი,რომელსაც ექნება 4 გვერდი Home,contact, about us,registration 
+ page,გასტილეთ საიტი ყველანაირად,გამოიყენეთ box-model იც, ნორმალურად გასტილეთ, დრო გექნებათ 
+ შემდეგ css ის გაკვეთილამდე, თუ საიტი უხარისხოდ იქნება გასტილული არ ჩავთვლი დავალებას და 
+ ჩემთან მოგიწევთ ვოისში გაკეთება, უხარისხოდ გაკეთებულში იგულისხმება,როცა 2 ხაზი კოდი გიწერიათ 
+ css ში და როცა გეზარებათ გაკეთება, გააკეთეთ თუგინდათ მასე და იზარმაცეთ მაგრამ იცოდეთ რომ მასე 
+ არაფერი არ გამოგივათ ამ სფეროში <3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hw.css">
+    <title>Films</title>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>Horror Films</h1>
+            <br><br><br>
+            <div id="semi-parent">
+                <div class="children">
+                    <br>
+                    <img src="./download.jpeg" alt="horror film" width="180px">
+                    <p>A Quiet Place</p>
+                    <a href="https://www.imdb.com/title/tt6644200/"><button>Watch now</button></a>
+                </div>
+                <br>
+                <div class="children">
+                    <br>
+                    <img src="./images.jpeg" alt="horror film" width="180px">
+                    <p>The Others</p>
+                    <a href="https://www.imdb.com/title/tt0230600/"><button>Watch now</button></a>
+                </div>
+                <div class="children">
+                    <br>
+                    <img src="./images (1).jpeg" alt="horor film" width="180px" height="270px">
+                    <p>The Skeleton Key</p>
+                    <a href="https://www.imdb.com/title/tt0397101/"><button>Watch now</button></a>
+                </div>
+                <div class="children">
+                    <br>
+                    <img src="./download (1).jpeg" alt="horror film" width="180px" height="270px">
+                    <p>The Sixth Sense</p>
+                    <a href="https://www.imdb.com/title/tt0167404/"><button>Watch now</button></a>
+                </div>
+                <div class="children">
+                    <br>
+                    <img src="./images.webp" alt="horror film" width="180px" height="270px">
+                    <p>Tremors</p>
+                    <a href="https://www.imdb.com/title/tt0100814/"><button>Watch now</button></a>
+                </div>
+            </div>
+        </div><br><br><br>
+    </center>
+    <nav>
+        <a href="./contact.html"><button>Contact</button></a>
+        <a href="./about.html"><button>About us</button></a>
+    </nav>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div id="div1">1</div>
+    <div id="div2">2</div>
+    <div id="div3">3</div>
+    <div id="div4">4</div>
+    <div id="div5">5</div>
+    <br><br><br>
+    <div id="container">
+        <p>10</p>
+    </div>
+</body>
+</html>
+
+
+<!-- 2) ახსენით რა არის CSS Box Model და შექმენით თქვენი ნახაზი
+ box model - არის ერთ ერთი მოდელი, რომელიც გვაჩვენებს თუ როგორ მუშაობს მისი ფენები 
+ მაგ.   1. content - საიტის კონტენტი
+        2. padding - ადგილი ბორდერსა და კონტენტის შორისა
+        3. border - ბორდერი კონტენტის ირგვლივ(თუ პადინგი აქვს პადინგის ირგვლივ)
+        4. margin - ადგილი სხვა "element" ან "border" ების შორის -->
+
+
+<!-- 3) დაწერეთ როგორ მუშაობს padding და margin, ჩამოთვალეთ CSS Box Model-ის ყველა შრე. ასევე CSS-ში დაწერეთ CSS reset-ის კოდი და ახსენით რისთვის ვიყენებთ
+
+        1. content - საიტის კონტენტი -- რაც body ელემენტშია ის არის content
+        2. padding - ადგილი ბორდერსა და კონტენტის შორისა -- padding:15px;
+        3. border - ბორდერი კონტენტის ირგვლივ(თუ პადინგი აქვს პადინგის ირგვლივ) -- border: 1px solid red;
+        4. margin - ადგილი სხვა "element" ან "border" ების შორის -- margin:15px;
+
+        CSS reset:
+        body{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+        }
+4) შექმენით 5 div ბლოკი, გაუწერეთ სხვადასხვა კუთვნილებები, აუცილებლად მიანიჭეთ ყველას margin და padding, გატესტეთ სხვადასხვა ვარიანტები
+
+5) შექმენით div ელემენტი id="container". მას მიანიჭეთ width და height მნიშვნელობები, მაგალითად 300px და 200px, ასევე background-color.
+
+შემდეგ ამ ელემენტს გაუწერეთ შემდეგი თვისებები:
+- padding: 20px;
+- border: 5px solid black;
+- margin: 30px;
+
+დამატეთ კომენტარები კოდის თავზე ან შიგნით, სადაც განმარტავთ:
+- რა არის padding
+- რა არის border
+- რა არის margin
+- რა არის content
+
+ასევე მიუთითეთ, როგორ მუშაობს მთლიანობაში Box Model.
+
+6)აუცილებლად გადახედეთ რესურსებს და ჩანაწერს, ასევე გაიმეორეთ განვლილი მასალა  -->

@@ -1,0 +1,88 @@
+.children{
+    width: 300px;
+    height: 380px;
+    background-color: rgb(235, 234, 234);
+    
+}
+
+#semi-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.children:hover{
+    background-color: rgb(218, 217, 217);
+    transition: 0.255s;
+}
+
+button{
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(206, 204, 204);
+    transition: 0.25s;
+}
+
+nav{
+    display:flex;
+    gap: 25px;
+}
+
+#div1{
+    background-color: blue;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    margin:50px;
+}
+
+#div2{
+    background-color: rgb(118, 10, 94);
+    width: 25px;
+    height: 15px;
+    padding: 21px;
+    margin:30px;
+}
+
+#div3{
+    background-color: rgb(65, 7, 7);
+    width: 550px;
+    height: 350px;
+    padding: 80px;
+    margin:20px;
+}
+
+#div4{
+    background-color: rgb(216, 191, 24);
+    width: 258px;
+    height: 45px;
+    padding: 0px;
+    margin:90px;
+}
+
+#div5{
+    background-color: rgb(7, 254, 197);
+    width: 600px;
+    height: 65px;
+    padding: 60px;
+    margin: 40px;
+}
+
+#container{
+    padding: 10px;
+    border: 3px solid rgb(184, 12, 12);
+    margin: 20px;
+    width: 290px;
+    height: 200px;
+}
+
+/*      1. content - საიტის კონტენტი
+        2. padding - ადგილი ბორდერსა და კონტენტის შორისა
+        3. border - ბორდერი კონტენტის ირგვლივ(თუ პადინგი აქვს პადინგის ირგვლივ)
+        4. margin - ადგილი სხვა "element" ან "border" ების შორის --> */
