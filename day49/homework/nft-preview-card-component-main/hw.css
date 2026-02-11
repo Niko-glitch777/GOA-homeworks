@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+#outer{
+    background-color: #0D1A2D;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent{
+    width: 300px;
+    height: 455px;
+    background-color: #15273F;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    padding-top: 0px;
+    
+}
+
+img{
+    border-radius: 6px;
+    width: 265px;
+    
+}
+
+#child{
+    display: flex;
+    flex-direction: column;
+}
+
+
+h5{
+    font-weight: 500;
+    color: hsl(216, 15%, 48%);
+    padding-top: 10px;
+}
+
+
+.children{
+    padding-right: 55px;
+}
+
+
+h3{
+    color: white;
+}
+
+#img1{
+    width: 10px;
+}
+
+#daysleft{
+    display: flex;
+    width: 285px;
+    flex-direction: row;
+    gap: 30%;
+}
+
+
+#div1{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 17px;
+    flex-direction: row;
+    gap: 3px;
+    color:  hsl(178, 100%, 50%);
+}
+
+h4{
+   font-weight: 600;
+}
+
+#img2{
+    width: 18px;
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 17px;
+    flex-direction: row;
+    gap: 3px;
+    color:  hsl(215, 51%, 70%);
+}
+
+#bold{
+    color: white;
+}
+
+#avatar{
+    width: 29px;
+}
+
+#h{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+#creation{
+    display: flex;
+    flex-direction: row;
+    margin-right: 63px;
+    gap: 4px;
+}
