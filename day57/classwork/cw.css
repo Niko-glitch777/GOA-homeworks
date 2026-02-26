@@ -1,0 +1,77 @@
+#outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#phone1{
+    height: 220px;
+    width: 220px;
+    background-image: url(./download\ \(4\).jpeg);
+}
+
+#iphone15{
+    width: 55px;
+    height: 65px;
+    
+    position: relative ;
+    top: 150px;
+    left: 140px;
+    background-color: burlywood;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    
+}
+
+#phone2{
+    height: 220px;
+    width: 220px;
+    background-image: url(./download.jpeg);
+}
+
+#iphone14{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 140px;
+    background-color: burlywood;
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+#phone3{
+    height: 220px;
+    width: 220px;
+    background-image: url(./download\ \(1\).jpeg);
+}
+
+#iphone13{
+    width: 55px;
+    height: 55px;
+    position: relative;
+
+    background-color: burlywood;
+    color: rgb(16, 175, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+
+
+p{
+    padding: 0;
+    margin: 0;
+    font-size: x-small;
+}

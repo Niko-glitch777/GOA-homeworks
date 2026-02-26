@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divs{
+    width: 300px;
+    height: 500px;
+}
+
+#A{
+    background-color: #E28525;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+#B{
+    background-color: #016972;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#C{
+    background-color: #00403F;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+#BB{
+    width: 250px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+#AA{
+    width: 250px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+#CC{
+    width: 250px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: "Big Shoulders", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 60px;
+    height: 40px;
+}
+
+#ABUTTON{
+    font-family: "Lexend Deca", sans-serif;
+    border: none;
+    background-color: #F2F2F2;
+    color: #E28525;
+    height: 50px;
+    width: 140px;
+    
+    border-radius: 30px;
+}
+
+#BBUTTON{
+    font-family: "Lexend Deca", sans-serif;
+    border: none;
+    background-color: #F2F2F2;
+    color:#016972;
+    height: 50px;
+    width: 140px;
+    
+    border-radius: 30px;
+}
+
+
+#CBUTTON{
+    font-family: "Lexend Deca", sans-serif;
+    border: none;
+    background-color: #F2F2F2;
+    color:#00403F;
+    height: 50px;
+    width: 140px;
+    
+    border-radius: 30px;
+}
