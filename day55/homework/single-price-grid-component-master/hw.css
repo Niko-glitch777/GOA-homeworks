@@ -1,0 +1,108 @@
+#parent {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e6eff6;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+}
+
+#inside {
+  width: 760px;
+  max-width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+#bigmain {
+  grid-column: 1 / 3;
+  background: #ffffff;
+  padding: 40px;
+}
+
+#bigmain h1 {
+  margin: 0 0 15px;
+  color: #2ab2af;
+  font-size: 28px;
+}
+
+#bigmain h3 {
+  margin: 0 0 12px;
+  color: #c0df34;
+  font-size: 18px;
+}
+
+#bigmain p {
+  margin: 0;
+  color: #7a8a9a;
+}
+
+#idk {
+  background: #2ab2af;
+  color: white;
+  padding: 35px 40px;
+}
+
+#idk h2 {
+  margin: 0 0 18px;
+  font-size: 18px;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+#cost{
+  font-size: 34px;
+  font-weight: bold;
+}
+
+#month {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+#access{
+  margin: 0 0 25px;
+  opacity: 0.9;
+}
+
+#but {
+  display: block;
+  text-align: center;
+  background: #c0df34;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#main {
+  background: #35c2bf;
+  color: white;
+  padding: 35px 40px;
+}
+
+#h {
+  margin: 0 0 15px;
+  font-size: 18px;
+}
+
+#unordered {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 14px;
+}
